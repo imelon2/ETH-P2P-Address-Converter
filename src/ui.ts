@@ -20,7 +20,7 @@ export function renderShell(root: HTMLElement) {
     <header class="app-header">
       <div>
         <h1 class="app-title">
-          <img class="logo" src="/brand.png" alt="ETH P2P Address Converter" width="44" height="44" />
+          <img class="logo" src="${import.meta.env.BASE_URL}brand.png" alt="ETH P2P Address Converter" width="44" height="44" />
           ETH P2P Address Converter
         </h1>
         <p class="app-subtitle">// decode &amp; convert ENR · enode · multiaddr</p>
